@@ -262,7 +262,6 @@ public class AttendanceMachineFragment extends Fragment {
                                 // Mengecek apakah lokasi dalam range yang diinginkan
                                 boolean result = checkLocationRange(location, userRole.getWorkingLocation(), 1000);  // Cek range 1000 meter
                                 Log.d("LocationUtils", "Location check result: " + result);
-
                                 callback.onLocationChecked(result);  // Mengirim hasil validasi
                             }
                         }
@@ -389,7 +388,6 @@ public class AttendanceMachineFragment extends Fragment {
     private void checkAttendanceRecord(AttendanceCheckCallback callback) {
         String todayDate = getCurrentDate();
         int userId = currentUser.getId();
-        todayDate = "2024-12-22";
 
         dbManager = new DBManager(getContext());
         dbManager.open();
@@ -406,7 +404,6 @@ public class AttendanceMachineFragment extends Fragment {
         String currentTime = getCurrentTime();
         int userId = currentUser.getId();
         String todayDate = getCurrentDate();
-        todayDate = "2024-12-22";
 
         if (isWithinSpareTime(currentTime, userRole.getWorkingStartTime(), userRole.getWorkingSpareTime())) {
 
@@ -426,7 +423,6 @@ public class AttendanceMachineFragment extends Fragment {
         String currentTime = getCurrentTime();
         int userId = currentUser.getId();
         String todayDate = getCurrentDate();
-        todayDate = "2024-12-22";
 
         if (isWithinSpareTime(currentTime, userRole.getWorkingEndTime(), userRole.getWorkingSpareTime())) {
 
