@@ -9,7 +9,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
     // Database Info
     private static final String DATABASE_NAME = "VirtualAttendance.db";
-    private static final int DATABASE_VERSION = 9;
+    private static final int DATABASE_VERSION = 10;
 
     // Table Roles
     public static final String TABLE_ROLE = "roles";
