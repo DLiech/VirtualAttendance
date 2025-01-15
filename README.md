@@ -39,7 +39,7 @@ Virtual Attendance is an application designed for small businesses to efficientl
 - Firebase Account & Project
 - Physical Smartphone with Fingerprint support for best experience
 - [Optional] Physical Device with android version > 10
-- 
+  
 #### Installation
 
 - Clone the repository:
