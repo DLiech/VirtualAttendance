@@ -59,14 +59,14 @@ Virtual Attendance is an application designed for small businesses to efficientl
   ```
 
 ## 🙏 Notes:
-  - Make role Admin and map a user to the role of accessing Admin menu (apart from default account admin@gmail.com)
-  - Any other role than Admin will be considered as staff-like role than have attendance feature
+  - Make role Admin and map a user to the role for accessing Admin menu (apart from default account admin@gmail.com)
+  - Any other role than Admin will be considered as staff-like role that have attendance feature
   - Attendance Button must be clicked twice for the first time to active the fingerprint feature and to read fingerprint
-  - Device Location detected with GPS. Make sure you are in a place with a good signal with open spaces.
+  - Device Location detected with GPS. Make sure you are in a place with a good signal like open spaces.
 
 ## 👀👀 Error Potential:
   - When logging in with wrong credentials, the app will crash. Please make new user or upgrade database version in DBHelper.java
-  - When taking absence, fingerprint validation will popup and may be crashed in emulator. Hence, please use device like smartphones which support fingerprints.
+  - When taking absence, fingerprint validation will popup and may be crashed in Android Studio emulator. Hence, please use device like smartphones that support fingerprints as emulator.
 
 ### Contributors:
 <table>
