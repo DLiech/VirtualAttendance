@@ -63,6 +63,7 @@ Virtual Attendance is an application designed for small businesses to efficientl
   - Any other role than Admin will be considered as staff-like role that have attendance feature
   - Attendance Button must be clicked twice for the first time to active the fingerprint feature and to read fingerprint
   - Device Location detected with GPS. Make sure you are in a place with a good signal like open spaces.
+  - Last tested by DLiech at 15 Jan 2025 (master branch)
 
 ## 👀👀 Error Potential:
   - When logging in with wrong credentials, the app will crash. Please make new user or upgrade database version in DBHelper.java
